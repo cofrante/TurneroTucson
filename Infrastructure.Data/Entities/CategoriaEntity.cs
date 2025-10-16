@@ -1,6 +1,6 @@
 ﻿namespace Infrastructure.Data.Entities;
 
-internal class CategoriaEntity
+public class CategoriaEntity
 {
     public int Id { get; set; }
     public string Nombre { get; set; } = null!;
